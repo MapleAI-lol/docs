@@ -27,7 +27,7 @@ Authorization: Bearer YOUR_API_KEY
 All API requests should be made to:
 
 ```
-https://api.mapleai.lol
+https://api.mapleai.de
 ```
 
 ---
@@ -74,7 +74,7 @@ POST /v1/chat/completions
 
 | Parameter     | Type    | Required | Description                                        |
 | ------------- | ------- | -------- | -------------------------------------------------- |
-| `model`       | string  | Yes      | Model ID (e.g., `gpt-4o`, `claude-3`)              |
+| `model`       | string  | Yes      | Model ID (e.g., `gpt-4o`, `claude-4-opus`)         |
 | `messages`    | array   | Yes      | Array of message objects with `role` and `content` |
 | `stream`      | boolean | No       | Enable streaming responses (`false` by default)    |
 | `temperature` | number  | No       | Controls randomness (0-2, default: 1)              |
@@ -160,7 +160,7 @@ POST /v1/moderations
 
 | Parameter | Type         | Required | Description                               |
 | --------- | ------------ | -------- | ----------------------------------------- |
-| `model`   | string       | Yes      | Model ID (e.g., `text-moderation-latest`) |
+| `model`   | string       | Yes      | Model ID (e.g., `omni-moderation-latest`) |
 | `input`   | string/array | Yes      | Text to analyze or array of texts         |
 
 **Example Response**
@@ -168,7 +168,7 @@ POST /v1/moderations
 ```json
 {
   "id": "modr-xxxxx",
-  "model": "text-moderation-latest",
+  "model": "omni-moderation-latest",
   "results": [
     {
       "flagged": false,

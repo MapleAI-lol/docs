@@ -150,7 +150,7 @@ POST /v1/embeddings
 
 | Parameter         | Type         | Required | Description                                   |
 | ----------------- | ------------ | -------- | --------------------------------------------- |
-| `model`           | string       | Yes      | Embedding model ID (e.g., `text-embedding-3`) |
+| `model`           | string       | Yes      | Embedding model ID (e.g., `text-embedding-3-large`) |
 | `input`           | string/array | Yes      | Input text or array of texts                  |
 | `encoding_format` | string       | No       | `float` (default) or `base64`                 |
 

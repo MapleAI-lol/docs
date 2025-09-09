@@ -132,7 +132,7 @@ curl https://api.mapleai.de/v1/responses \
   -H "Authorization: Bearer sk-mapleai-xxxxxxxx" \
   -H "Content-Type: application/json" \
   -d '{
-    "model": "gpt-4o",
+    "model": "o3-pro",
     "input": [
       {"role": "user", "content": "Write a short bedtime story about a fox."}
     ],

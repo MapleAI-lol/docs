@@ -30,12 +30,6 @@ List and inspect available models.
 GET /v1/models
 ```
 
-**Retrieve Model**
-
-```
-GET /v1/models/{model}
-```
-
 ---
 
 ## Chat Completions

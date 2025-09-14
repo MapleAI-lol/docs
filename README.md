@@ -177,6 +177,20 @@ POST /v1/audio/speech
 | `voice`           | string | Yes      | Voice ID                                     |
 | `response_format` | string | No       | Output format: `mp3` (default), `wav`, `ogg` |
 
+| name    | value     |
+| ------- | --------- |
+| Alloy   | `alloy`   |
+| Ash     | `ash`     |
+| Ballad  | `ballad`  |
+| Coral   | `coral`   |
+| Echo    | `echo`    |
+| Fable   | `fable`   |
+| Onyx    | `onyx`    |
+| Nova    | `nova`    |
+| Sage    | `sage`    |
+| Shimmer | `shimmer` |
+| Verse   | `verse`   |
+
 ### Transcriptions
 
 Convert audio into text.

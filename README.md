@@ -85,6 +85,7 @@ POST /v1/images/generations
 | `prompt`  | string  | Yes      | Text description of the image    |
 | `size`    | string  | No       | Image size (`1024x1024` default) |
 | `n`       | integer | No       | Number of images (default: 1)    |
+| `response format` | string | Yes | Required for Imagen, an example of a response format is b64_json |
 
 ### Image Edits
 
